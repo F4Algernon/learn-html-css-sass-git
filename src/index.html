@@ -8,6 +8,8 @@
 	</head>
 
 	<body>
+
+
 		<header>
 			<h1>Pet Hub</h1>
 			<p>All pets big and small.</p>
@@ -23,11 +25,44 @@
 			</nav>
 
 		</header>
-	
+		
+
 		<section>		
 
 				<h1>Welcome</h1>
 				<p>Welcome to the homepage. <a href="contact-us.html">Contact Us</a></p>
+
+		</section>
+
+		<section>
+		
+
+			<form>
+				
+				<h2>Name</h2>
+				<label for="firstName">First Name:</label>
+				<input id="firstName" type="text" name="firstName">
+
+				<!-- An alternate way to associal label and input is to nest instead of using for-id -->
+				<label>Last Name:
+					<input type="text" name="lastName">
+				</label>
+
+				<h2>Contact</h2>
+				<label for="email">Email:</label>
+				<input id="email" type="email" name="email">
+				
+				<label for="phone">Phone:</label>
+				<input id="phone" type="tel" name="phone">
+
+				<h2>Message</h2>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+
+
+				<input type="submit" name="submit-button" value="Save!">
+
+			</form>	
 
 		</section>
 
@@ -51,7 +86,7 @@
 				<section>
 					
 					<h1>Glossary outside aside</h1>
-					
+
 					<aside>
 				
 						<h1>Glossary inside aside</h1>
