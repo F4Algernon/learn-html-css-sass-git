@@ -60,10 +60,110 @@
 				<textarea id="message" name="message"></textarea>
 
 
+				<h2>Example of &ldquo;Select&rdquo; input.</h2>
+				<label for="favoriteColor">What is your favorite color?</label>
+				<select id="favoriteColor" name="favoriteColor">
+					<option value="red">red</option>
+					<option value="green">green</option>
+					<option value="blue">blue</option>
+				</select>
+
+				<h2>Example of &ldquo;Radio&rdquo; inputs.</h2>
+				<fieldset>
+
+					<legend>Which meal do you prefer? (choose one)</legend>
+
+					<input type="radio" id="breakfast1" name="favoriteMeal1" value="meal1"><label for="breakfast1">Breakfast</label>
+
+					<input type="radio" id="brunch1" name="favoriteMeal1" value="meal2"><label for="brunch1">Brunch</label>
+
+					<input type="radio" id="lunch1" name="favoriteMeal1" value="meal3"><label for="lunch1">Lunch</label>
+
+				</fieldset>
+				
+				<h2>Example of &ldquo;Checkbox&rdquo; inputs.</h2>
+				<fieldset>
+
+					<legend>Which meals do you enjoy? (check all that apply)</legend>
+
+					<input type="checkbox" id="breakfast2" name="favoriteMeal2" value="meal1"><label for="breakfast2">Breakfast</label>
+					
+					<input type="checkbox" id="brunch2" name="favoriteMeal2" value="meal2"><label for="brunch2">Brunch</label>
+					
+					<input type="checkbox" id="lunch2" name="favoriteMeal2" value="meal3"><label for="lunch2">Lunch</label>
+
+				</fieldset>
+
+
 				<input type="submit" name="submit-button" value="Save!">
 
 			</form>	
 
+		</section>
+
+		<section>
+			
+			<h1>Tables</h1>	
+
+			<table>
+				<!-- alternative
+				<tr>
+					<th>Name</th>
+					<th>Aisle</th>
+					<th>Price</th>
+					<th>Quantity</th>
+				</tr>
+
+				<tr>
+					<th>Bread</th>
+					<th>2</th>
+					<th>$3.00</th>
+					<th>1</th>
+				</tr>
+
+				<tr>
+					<th>Milk</th>
+					<th>1</th>
+					<th>$2.50</th>
+					<th>3</th>
+				</tr>
+				-->
+
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Aisle</th>
+						<th>Price</th>
+						<th>Quantity</th>
+					</tr>
+				</thead>
+
+				<tfoot>
+					<tr>
+						<td>Total</td>
+						<td>N/A</td>
+						<td>$5.50</td>
+						<td>N/A</td>
+					</tr>
+				</tfoot>
+
+				<tbody>
+					<tr>
+						<th>Bread</th>
+						<th>2</th>
+						<th>$3.00</th>
+						<th>1</th>
+					</tr>
+
+					<tr>
+						<th>Milk</th>
+						<th>1</th>
+						<th>$2.50</th>
+						<th>3</th>
+					</tr>
+				</tbody>
+
+			</table>
 		</section>
 
 		<section>
